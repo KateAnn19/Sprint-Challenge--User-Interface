@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -82,7 +83,9 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;  
 }
 
 .middle-content {
@@ -111,6 +114,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#one {
+    background: teal;
+}
+
+#two{
+    background: gold;
+}
+
+#three{
+    background:cadetblue;
+}
+
+#four{
+    background:coral;
+}
+
+#five{
+    background:crimson;
+}
+
+#six{
+    background:forestgreen;
+}
+
+#seven{
+    background: darkorchid;
+}
+
+#eight{
+    background: hotpink;
+}
+
+#nine{
+    background: indigo;
+}
+
+#ten{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +188,128 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-navigation{
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    margin-bottom: 1%;
+}
+    
+    .top-navigation a{
+        text-decoration: none;
+        /* border: 1px solid purple; */
+        color: black;
+        width:50%;
+        /* display: flex; */
+        /* leave this alone */
+        /* align-items: center; */
+        margin-left: 8%; 
+        padding-left: 10%;
+        margin-bottom: 2%;
+    }
+
+    .nav-contents{
+        display:flex;
+    }
+    
+.aboutPara{
+    border-bottom: dashed 1px black ;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+    .images{
+        display:flex;
+        justify-content: space-between;
+    }
+    .images2{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+
+    .paragraphs{
+        display:flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        width: 100%;
+        margin-left:1%;
+    }
+
+    .paragraphs2{
+        display:flex;
+        margin-bottom: 20px;
+        width: 100%;
+        padding-right: 3%;
+        padding-left: 2%;
+        justify-content: space-between;
+        margin-left:1%;
+    }
+
+
+    .individual{
+        width: 100%;
+        padding: 2%;
+        margin-right: 4%;
+        border-bottom: dashed 1px black ;
+    }
+
+    div #move1{
+        padding-right: 1%;
+        margin-left: -3%;
+    }
+
+
+    div #move2{
+        padding-right: 1%;
+        margin-right: 3%;
+        margin-left: -5%;
+    }
+
+
+    div #move3{
+        padding-left: 5%;    
+    }
+
+    div #move4{
+        margin-left: 4%;    
+    }
+
+
+
+    .individual2{
+        width: 100%;
+        padding: 2%;
+        border-bottom: dashed 1px black ;
+    }
+
+    #bordered{
+        border-bottom: dashed 1px black ;
+    }
+
+    .letsWork{
+        padding-top: 1%;
+        margin-bottom: 3%;
+    }
+
+    .learn{
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-right: 60%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 3%;
+        padding-left: 1%;
+        margin-top: 3%;
+        text-align: center;
+        background-color: white;
+        font-size: 85%;
+    }
+
+    .dumbo{
+        margin-bottom: 1%;
+    }
+
