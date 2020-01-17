@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -112,6 +113,47 @@ p {
     justify-content: center;
 }
 
+#one {
+    background: teal;
+}
+
+#two{
+    background: gold;
+}
+
+#three{
+    background:cadetblue;
+}
+
+#four{
+    background:coral;
+}
+
+#five{
+    background:crimson;
+}
+
+#six{
+    background:forestgreen;
+}
+
+#seven{
+    background: darkorchid;
+}
+
+#eight{
+    background: hotpink;
+}
+
+#nine{
+    background: indigo;
+}
+
+#ten{
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +186,111 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-navigation{
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+}
+    
+    .top-navigation a{
+        text-decoration: none;
+        /* border: 1px solid purple; */
+        color: black;
+        width:50%;
+        /* display: flex; */
+        /* leave this alone */
+        /* align-items: center; */
+        margin-left: 8%; 
+        padding-left: 10%;
+        margin-bottom: 2%;
+    }
+
+    .nav-contents{
+        display:flex;
+    }
+    
+.aboutPara{
+    border-bottom: dashed 1px black ;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+    .images{
+        display:flex;
+        justify-content: space-between;
+    }
+    .images2{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+
+    .paragraphs{
+        display:flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .paragraphs2{
+        display:flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        width: 100%;
+        padding-right: 2%;
+        padding-left: 2%;
+        /* justify-content: space-around; */
+    }
+
+
+    .individual{
+        /* margin-left: 13px;
+        margin-right: 13px; */
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 2%;
+        border-bottom: dashed 1px black ;
+        /* margin-left: 4%;
+        margin-right: 4%; */
+    }
+/* 
+    div.test{
+        display: flex;
+        border: 5px solid yellow;
+        margin-right: 90%;
+    } */
+
+
+    .individual2{
+        /* margin-left: 13px;
+        margin-right: 13px; */
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 2%;
+        border-bottom: dashed 1px black ;
+        /* margin-left: 4%;
+        margin-right: 4%; */
+    }
+
+    .letsWork{
+        padding-top: 1%;
+        margin-bottom: 3%;
+    }
+
+    .learn{
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-right: 60%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 3%;
+        padding-left: 1%;
+        margin-top: 3%;
+        text-align: center;
+        background-color: white;
+        font-size: 85%;
+    }
